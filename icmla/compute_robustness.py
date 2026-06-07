@@ -67,9 +67,9 @@ from collections import Counter
 ACTION_RANK = {
     "stop":0,
     "slow_down":1,
-    "uncertain":1.5,
     "maintain":2,
-    "accelerate":3
+    "accelerate":3,
+    "uncertain":4,
 }
 
 
